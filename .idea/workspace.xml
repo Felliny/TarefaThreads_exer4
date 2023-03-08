@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a884c4fa-53fb-4c1f-a12a-b4de173b4499" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TarefaThreads_exer4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/threadSapo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Main.java" afterDir="false" />
+    <list default="true" id="a884c4fa-53fb-4c1f-a12a-b4de173b4499" name="Changes" comment="Exerccício 4 de Threads">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/threadSapo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/threadSapo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +71,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678194061426</updated>
     </task>
+    <task id="LOCAL-00001" summary="Exerccício 4 de Threads">
+      <created>1678203855467</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678203855467</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,5 +91,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exerccício 4 de Threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exerccício 4 de Threads" />
   </component>
 </project>

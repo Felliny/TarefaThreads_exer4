@@ -4,15 +4,22 @@ import Controller.threadSapo;
 
 public class Main {
     public static void main(String[] args) {
-        int distanciamax= (int) (Math.random()*100) + 1;
-        int sapo[]= new int[5];
+        int distanciamax= 20;
+        int distanciapulo= 5;
+        int colocação= 1;
+        int numsapo= 1;
 
         System.out.println("Distancia Máxima: "+distanciamax);
 
-        while (sapo[0]<distanciamax || sapo[1]<distanciamax || sapo[2]<distanciamax || sapo[3]<distanciamax || sapo[4]<distanciamax) {
-            threadSapo salto = new threadSapo(distanciamax, sapo);
-            salto.start();
+        for (int i=0; i<5; i++){
+            threadSapo sapo = new threadSapo(distanciamax, distanciapulo, colocação, numsapo);
+            sapo.start();
+            colocação++;
+            numsapo++;
         }
+
+
+
 
 
     }
