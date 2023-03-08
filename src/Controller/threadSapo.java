@@ -29,7 +29,7 @@ public class threadSapo extends Thread {
         while (sapo<distanciamax) {
             pulo = (int) (Math.random() * distanciapulo)+ 1;
             sapo+= pulo;
-            System.out.println("O sapo " + numsapo + " pulou " + pulo + " metros e percorreu " + sapo);
+            System.out.println("O sapo " + numsapo + " pulou " + pulo + " metros e percorreu " + sapo + " metros");
         }
         System.out.println("O sapo "+ numsapo + " chegou ao final na "+ colocacao + " colocação");
 
